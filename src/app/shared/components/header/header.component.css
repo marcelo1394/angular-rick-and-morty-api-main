@@ -1,0 +1,33 @@
+.nav {
+  background-color: rgb(114, 186, 245);
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  padding-top:5px ;
+  padding-left: 5%;
+  padding-right: 5%;
+  font-weight:bold ;
+}
+.nav__titulo {
+  font-family: 'Dancing Script', cursive;
+  color: black;
+  text-decoration: none;
+}
+
+.ul__li {
+  display: inline;
+  padding: 0px 20px ;
+  color: black;
+  text-decoration: none;
+}
+
+@media (max-width:850px){
+  .nav{
+    display: flex;
+    flex-direction: column;
+    padding-top: 50px;
+  }
+ .ul__li {
+    display: flex;
+  }
+}

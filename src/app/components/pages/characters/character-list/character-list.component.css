@@ -1,0 +1,40 @@
+
+.boton {
+  padding: 10px 20px;
+  background-color: #64a3f7;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.boton:hover {
+  background-color: #408ff7;
+}
+
+.boton:active {
+  background-color: #408ff7;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+
+}
+@media (max-width:1800px){
+  .grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+
+  }
+
+}
+@media (max-width:1300px){
+  .grid {
+    display: grid;
+    grid-template-columns: 1fr ;
+    justify-content: end;
+  }
+}
+
+

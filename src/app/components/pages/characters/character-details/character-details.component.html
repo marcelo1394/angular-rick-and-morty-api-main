@@ -1,0 +1,7 @@
+<div  *ngIf="character$ | async as character">
+  <div >
+    <app-character [character]="character" />
+  </div>
+</div>
+
+<button class="boton" (click)="onGoBack()">Atras</button>

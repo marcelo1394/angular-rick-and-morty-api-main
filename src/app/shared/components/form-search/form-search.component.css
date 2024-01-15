@@ -1,0 +1,16 @@
+.contenedor {
+  display: flex;
+  position: relative;
+}
+.contenedor__buscador {
+  border: 1px solid rgb(165, 165, 165);
+  outline: none;
+  border-radius: 10px;
+  padding: 5px;
+}
+
+.contenedor__icono {
+  position: absolute;
+  right: 10px;
+  top: 10px;
+}

@@ -1,0 +1,17 @@
+
+.boton {
+  padding: 10px 20px;
+  background-color: #64a3f7;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.boton:hover {
+  background-color: #408ff7;
+}
+
+.boton:active {
+  background-color: #408ff7;
+}

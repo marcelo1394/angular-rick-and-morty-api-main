@@ -1,0 +1,19 @@
+<div class="grid" infinite-scroll (scrolled)="onScrollDown()">
+  <div *ngFor="let character of characters">
+    <!--todos los personajes-->
+    <app-character [character]="character" />
+  </div>
+
+  <!--texto  no resultado-->
+  <div *ngIf="characters.length <= 0">
+    <p>No hay resultados...</p>
+  </div>
+</div>
+
+<button
+  class="boton"
+  [ngClass]="'no-hidden'"
+  *ngIf="showGoUpButton"
+  (click)="onScrollTop()">
+Subir
+</button>
